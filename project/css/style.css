@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+:root {
+    --main-bg-color: brown;
+  }
+*{
+    padding: 0;margin: 0;
+}
+header{
+    height: 58px;
+    background: var(--main-bg-color);
+    font-family: "Rajdhani", sans-serif;
+    
+}
+
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    padding: 0 25px;
+}
+
+nav ul{
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 23px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+   
+    font-weight: bolder;
+}
+.search{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: -17px;
+    
+}
+.search button{
+    font-family: "Rajdhani", sans-serif;
+    font-weight: bold;
+}
+.search input{
+    width: 493px;
+    height: 44px;
+    border-radius: 5px;
+    margin: 0 16px 0 56px;
+}
+.btn{
+    padding: 5px 1px;
+    color: white;
+    background: var(--main-bg-color);
+    border: 2px solid white;
+    border-radius: 7px;
+    cursor: pointer;
+    
+}
+.container {
+    min-height: calc(100vh - 58px - 12vh);
+}
+.slider{
+    display: flex;
+    align-items: center;
+    margin: 12px auto;
+    width: 80vw;
+    justify-content: center;
+    overflow: hidden;
+}
+.card{
+    background-color: aquamarine;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.card h2{
+    font-family: "Rajdhani", sans-serif;
+}
+.my-2{
+    margin: 26px 0;
+}
+.my-1{
+    margin: 5px 0;
+}
+.text-centre{
+    text-align: centre;
+}
+.card-item{
+    display:inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 10vw;
+}
+footer{
+    height: 12vh;
+    background-color:var(--main-bg-color);
+    color: white  ;
+    font-family: "Rajdhani", sans-serif;
+}
